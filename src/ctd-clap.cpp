@@ -198,6 +198,7 @@ struct CTDClap : public plugHelper_t
         assert(paramIndex == 0);
         info->id = 123;
         strcpy(info->name, "TEST");
+        strcpy(info->module, "Params");
         info->min_value = 0.0;
         info->max_value = 1.0;
         info->default_value = 0.5;
